@@ -7,7 +7,13 @@ class UserRegistrationTest {
 
     @Test
     void validFirstName() {
-        UserRegistration userRegistration = new UserRegistration("Rahul");
-        Assertions.assertEquals("Rahul",UserRegistration.validFirstName());
+        UserRegistration userRegistration = new UserRegistration();
+        Assertions.assertEquals("Rahul",UserRegistration.validFirstName("Rahul"));
+    }
+
+    @Test
+    void validLastName() {
+        UserRegistration userRegistration = new UserRegistration();
+        Assertions.assertEquals("Sharma",UserRegistration.validLastName("Sharma"));
     }
 }
