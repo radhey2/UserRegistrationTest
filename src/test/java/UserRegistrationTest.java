@@ -28,4 +28,10 @@ class UserRegistrationTest {
         UserRegistration userRegistration = new UserRegistration();
         Assertions.assertEquals("9823325034",UserRegistration.validPhoneNum("9823325034"));
     }
+
+    @Test
+    void validPassWord() {
+        UserRegistration userRegistration = new UserRegistration();
+        Assertions.assertEquals("Rahul956@",UserRegistration.validPassWord("Rahul956@"));
+    }
 }
