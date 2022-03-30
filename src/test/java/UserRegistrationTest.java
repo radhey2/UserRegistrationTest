@@ -22,4 +22,10 @@ class UserRegistrationTest {
         UserRegistration userRegistration = new UserRegistration();
         Assertions.assertEquals("abcD@gmail.com",UserRegistration.validEmail("abcD@gmail.com"));
     }
+
+    @Test
+    void validPhoneNum() {
+        UserRegistration userRegistration = new UserRegistration();
+        Assertions.assertEquals("9823325034",UserRegistration.validPhoneNum("9823325034"));
+    }
 }
