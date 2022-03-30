@@ -16,4 +16,10 @@ class UserRegistrationTest {
         UserRegistration userRegistration = new UserRegistration();
         Assertions.assertEquals("Sharma",UserRegistration.validLastName("Sharma"));
     }
+
+    @Test
+    void validEmail() {
+        UserRegistration userRegistration = new UserRegistration();
+        Assertions.assertEquals("abcD@gmail.com",UserRegistration.validEmail("abcD@gmail.com"));
+    }
 }
