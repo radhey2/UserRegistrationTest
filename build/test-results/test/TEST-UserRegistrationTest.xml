@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UserRegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-30T08:59:53" hostname="DESKTOP-48FV798" time="0.057">
+  <properties/>
+  <testcase name="validFirstName()" classname="UserRegistrationTest" time="0.057"/>
+  <system-out><![CDATA[Match found
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
